@@ -1,16 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import todoList from './todoList';
 function App() {
   return (
-    <TodoList todoList={todos}/>
+
     <div className="App">
+
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           TODO React App
         </p>
+        <todoList/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -24,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+    export default App;
