@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import todoList from './todoList';
+import {TodoList} from './TodoList';
 function App() {
+
+
+
+
   return (
 
     <div className="App">
@@ -13,7 +17,7 @@ function App() {
         <p>
           TODO React App
         </p>
-        <todoList/>
+        <TodoList/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -28,3 +32,4 @@ function App() {
 }
 
     export default App;
+    //export default TodoList;
